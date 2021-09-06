@@ -9,3 +9,4 @@
 - [임베디드 요소](./HTML/%EC%9E%84%EB%B2%A0%EB%94%94%EB%93%9C%20%EC%9A%94%EC%86%8C.md)
 - [폼 관련 요소](./HTML/%ED%8F%BC%20%EA%B4%80%EB%A0%A8%20%EC%9A%94%EC%86%8C.md)
 - [메타데이터요소](./HTML/%EB%A9%94%ED%83%80%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9A%94%EC%86%8C.md)
+- [전역 속성](./HTML/%EC%A0%84%EC%97%AD%20%EC%86%8D%EC%84%B1.md)
