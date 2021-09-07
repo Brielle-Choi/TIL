@@ -1,0 +1,46 @@
+/*type selector*/
+h2{
+  color:purple;
+}
+
+/* ID Selector */
+#welcome-title {
+  color: green;
+}
+
+/* Class Selector */
+.blue{
+  color:blue;
+}
+
+.red {
+  color: red;
+}
+
+
+/* Attribute Selector */
+
+/* 1.[attr] */
+a[target] {
+  color: hotpink;
+}
+
+/* 2.[attr=value] */
+a[href="http://example.org"] {
+  color: indigo;
+}
+
+/* 3.[attr^=value] */
+a[href^="http://"] {
+  color: red;
+}
+
+/* 4.[attr$=value] */
+a[href$=".com"] {
+  color: silver;
+}
+
+/* 5.[attr*=value] */
+a[href*="example"]{
+  color: sienna;
+}
