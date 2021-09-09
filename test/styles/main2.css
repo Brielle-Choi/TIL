@@ -47,3 +47,7 @@ span {
 .container p:last-of-type {
   text-transform: capitalize;
 }
+
+header {
+  color :red
+}
