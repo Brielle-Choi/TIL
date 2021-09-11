@@ -33,6 +33,74 @@
   transform-origin : bottom right;
       }
 .Hello:hover {
-  transform: rotate(360deg) translateY(30px);
+  transform: rotate(360deg) translateY(30px); 
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  border: 10px solid seagreen;
+  border-radius: 30px;
+  background-color:rgb(3, 200, 10);
+  animation: my-first-one 1s infinite
+}
+
+.FA1 {
+  background-color: rgb(3, 200, 10);
+  animation-delay: 0.7s; 
+}
+.FA2 {
+  background-color: rgb(101, 125, 153);
   
+  animation-delay: 1s;
+}
+.FA3 {
+  background-color: rgb(200, 3, 141);
+  
+  animation-delay: -0.3s;
+}
+  
+@keyframes my-first-one {
+  0% {font-size: 20px;
+  }
+  50% {width: 300px;
+  font-size: 80px;}
+  100% {font-size: 20px;}
+}
+
+
+.box1 {
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  }
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  border: 10px solid green;
+  background-color: greenyellow;
+}
+
+.box2 {  
+  animation: fill-mode 2s linear;
+  animation-fill-mode: backwards; 
+  }
+
+
+@keyframes fill-mode {
+  0% { background-color: blueviolet;}
+  50% { background-color: blue;}
+ 100% { background-color: cornflowerblue;}
 }
