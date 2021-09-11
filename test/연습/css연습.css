@@ -3,3 +3,36 @@
   transform: scale(0.5) rotate(45deg) translate(100px,200px) transform-origin: top left;
  ;
 }
+
+
+.box {
+  width: 300px;
+  height: 80px;
+  border: 2px dashed teal;
+  background-color: darkgoldenrod;
+  font-size: 50px;
+  color: white;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-delay: 1s;
+  transition-timing-function: ease-in;
+}
+
+.box:hover {
+  background-color: tomato;
+  height: 400px;
+}
+
+.Hello {
+  width: 100px;
+  height: 100px;
+  border: 10px solid seagreen;
+  border-radius: 30px;
+  background-color:rgb(3, 200, 10);
+  transition:  all 2s ease-in;
+  transform-origin : bottom right;
+      }
+.Hello:hover {
+  transform: rotate(360deg) translateY(30px);
+  
+}
