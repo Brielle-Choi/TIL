@@ -232,7 +232,7 @@
     align-self: flex-start;
   }
 
-    <!-- 4번 째 아이템만 정렬 다름; 위 align-items: center은 무시하게 됨 -->
+    /* 4번 째 아이템만 정렬 다름; 위 align-items: center은 무시하게 됨 */
   
   ```
 
