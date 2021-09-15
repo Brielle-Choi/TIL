@@ -59,5 +59,69 @@
 - 빈 블록
   - border,padding,content가 없고, height 또한 존재하지 않으면, 해당 블록의 margin-top과 margin-bottom이 상쇄 됨
 
+## padding
 
+- 단축 속성 
+- 음수 값을 사용할 수 없음
+- &lt;percentage&gt;를 쓸 경우 무조건 부모 요소의 width를 기준!!!
 
+## 테두리 - border-style , border-width, border-color
+
+- border-style 
+  - 기본값 : none
+  - 값 : solid ,dashed, dotted 등
+
+- border-width
+  - 값 : 키워드(thin, medium, thick), &lt;length&gt; 값을 사용해도 됨
+
+- border-color
+  - border 색상 지정
+
+  ```css
+      .box {
+        width: 100px;
+        height: 300px;
+
+        border-style: dotted solid;
+        border-width: 10px;
+        border-color: wheat tomato;
+      }
+      /* boreder-style을 none으로 지정하면 width와 color을 설정해도 0으로 돼서 보이지 않음 */
+  ```
+
+## border(shorthand)
+
+- 스타일을 지정하지 않으면 기본값이 none이 사용돼 테두리가 보이지 않음
+- 순서 상관 없음
+- 외곽선(outline): button 같은 것에 추가하는 것으로 border랑 다름
+
+  ```css
+  .box {
+    width; 100px;
+    height: 100px;
+
+    border: solid red 5px;
+  }
+  ```
+
+## border-radius
+
+-  요소 테두리 경계의 꼭짓점을 둥글게 만듦
+-  &lt;percentage&gt;로 입력할 경우 가로축 값은 요소 박스의 너비에 대한 백분율이고 세로축 값은 박스의 높이에 대한 백분율
+- 음수값은 사용할 수 없음
+- 값 순서 : left-top right-top right-bottm left-bottm 혹은 마주 보는 값끼리 사용 가능
+
+## box-sizing
+
+- 요소의 너비와 높이를 계산하는 방법을 지정
+- 값
+  - 기본값 : content-box
+    -> width와 height 속성이 콘텐츠 영역만 포함하고 안팎 여백과 테두리는 포함하지 않음,content의 순수한 width와 height (border, padding, margin의 크기는 넣지 않음)
+  - border-box
+  -> width와 height 속성이 padding과 border는 포함하고 margin은 포함하지 않음; padding과 border가 요소 상자 안에 위치; content 외에 border, padding을 합한 것이 컨테이너의 width와 height
+
+    ```css
+    * {
+      border-box: border-box;
+    }
+    ```
