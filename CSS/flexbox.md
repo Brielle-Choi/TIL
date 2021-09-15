@@ -9,7 +9,7 @@
 
 - 값
   - row : 주축의 시작점과 끝점이 콘텐츠 방향과 동일하며 기본값
-  - row-reverse : 시작점과 끝점이 반대에 윛
+  - row-reverse : 시작점과 끝점이 반대에 위치
   - column : 주축이 블록 축과 동일 (세로 방향)
   - column-reverse : column과 방향 반대로
 

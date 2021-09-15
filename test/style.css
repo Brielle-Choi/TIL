@@ -1,0 +1,32 @@
+.content {
+  margin: 10px 15px 20px 15px;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 1px black;
+}
+
+
+
+.wrap {
+  width : 500px;
+  margin: 0 auto;  
+}
+
+nav {
+  height: 64px;
+  border-bottom: 1px;
+  border-color: rgb(231, 231, 231);
+  padding: 0 16px;
+}
+
+.title {
+  font-size: 24px;
+  font-style: bold;
+}
+
+.menu {
+  margin : 0 10px;
+  float: right;
+  height: 100%;
+}
