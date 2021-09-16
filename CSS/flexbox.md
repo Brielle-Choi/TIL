@@ -203,6 +203,7 @@
 ## Container - align-items
 
 - flex(한 줄)가 전체 container에서 어디다 둘 지에 대한 설정
+- cross-axis에 관한 정렬 
 - space-between과 space-around 사용 가능하지 않음
 
 ## Container - align-content

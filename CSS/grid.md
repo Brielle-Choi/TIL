@@ -142,7 +142,7 @@ grid-template-areas
  - 선행조건: 컨테이너의 크기가 컨텐츠의 크기보다 커서 여유 공간이 있어야 함
  - flexbox의 내용과 같음
  - 전체의 컨테이너를 기준으로 중 아이템 덩어리를 어떻게 배치할지 결정
- - justify-content는 주축에 해당하고, alighn-content는 교차축에 해당
+ - justify-content는 주축에 해당하고, align-content는 교차축에 해당
 
  ```css
  .container2 {
